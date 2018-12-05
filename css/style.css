@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  background: url("../images/stone-block-bg.png") black;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 505px;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  background-color: rgba(87, 88, 88, 0.80);
+  color: white;
+}
+h2{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: 100;
+  margin: auto 0;
+}
+.gameStatsContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  /* This width is mainly for the hearts */
+  width: 168px;
+}
+button{
+  width: 75px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(87, 88, 88);
+  color: white;
+}
