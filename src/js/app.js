@@ -422,7 +422,7 @@ let allEnemies = [];
 // This creates the enemies, placing the enemy objects into an array with their randomly set properties(position, speed)
 // Doesn't need to be an IIFE, I just wanted the code to speak for itself, the function can also be called later if need be.
 function createEnemies() {
-  for (i = 0; i < game.numOfEnemies; i++) {
+  for (let i = 0; i < game.numOfEnemies; i++) {
     let position = stoneArrayOfPostions[randomIndex(3)];
     let randomBugSpeed = randomNumMinMax(game.bugSpeedMin, game.bugSpeedMax);
 
