@@ -4,7 +4,7 @@ Made to practice JavaScript Object Oriented programming, CSS and HTML.
 Use the array keys to move in the direction you want to go. Avoid the creatures moving across the board!
 ## Two different types of gameplay: 
 ### Endless
-Reach the obsidian to move to the next level. See many levels you can beat before you lose!
+Reach the obsidian to move to the next level. See how many levels you can beat before you lose!
 ### Levels
 Reach the obsidian to move to the next level.
 To win, avoid the creatures and get to level 14. 
